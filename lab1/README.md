@@ -9,7 +9,7 @@ LoRa uses license-free sub-gigahertz radio frequency bands like EU433 (433.05-43
 
 While LoRa is not as fast speed as 5G or Bluetooth, it consumes much less power and has a communication range reaching more than six miles.  
 
-![Image of Wireless Tech Bandwidth vs. Range](/assets/LoRaBvR.png)
+![Image of Wireless Tech Bandwidth vs. Range](assets/LoRaBvR.png)
 
 LoRa has many advantages:  
 
@@ -58,12 +58,12 @@ LoRa has many advantages:
   2) Next connect the one LoRa module to each ESP 32 according to the following schematic
  diagram:  
 
- ![Image of LoRa Wiring Diagram](/assets/LoRaWiring.svg)
+ ![Image of LoRa Wiring Diagram](assets/LoRaWiring.svg)
 
  3) Install a LoRa library in your Arduino IDE. Please notice that there are many LoRa libraries,
  make sure you install the exact one with name ‘LoRa’.
 
- ![Image of LoRa Library Arduino](/assets/LoRaLibrary.svg)  
+ ![Image of LoRa Library Arduino](assets/LoRaLibrary.svg)  
 
   4) Onone ESP32-LoRa that you have just prepared, upload ‘lora_helloworld_talker.ino’, which
  will send out a message ‘hello’ every second. Make sure that you go to the line
@@ -79,7 +79,7 @@ LoRa has many advantages:
  6) If everything is fine, when you open the serial monitor (please choose the listener port), you
  should see the listener receiving messages from the talker.
 
- ![Image of Serial Monitor with Succcesful Code](/assets/SerialMonitor.svg)  
+ ![Image of Serial Monitor with Succcesful Code](assets/SerialMonitor.svg)  
 
   7)     Please take a screenshot or record a video for submission.
 
@@ -99,7 +99,7 @@ LoRa has many advantages:
  Please modify the listener code so that you can visualize the PPG readings on the listener port
  using the serial plotter.
 
- ![Image of Serial Plotter of PPG](/assets/PlotterPPG.svg)  
+ ![Image of Serial Plotter of PPG](assets/PlotterPPG.svg)  
    
      Please take a screenshot or record a video for submission.
 
