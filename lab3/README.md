@@ -30,7 +30,7 @@ In this lab, you will build a magical sorting hat using an ESP32 and machine lea
 2. Use `sorting_hat_laptop.py` to train your decision tree and convert it to C++ for ESP32.
 3. Wire your ESP32 with buttons and OLED display. An example is shown in the figure below. Update the sketch `sorting_hat_esp_button.ino` accordingly, depending on how you wire the sorting hat.
 
-![Example of a sorting hat created using ESP32](/assets/sorting_hat_button.png)
+![Example of a sorting hat created using ESP32](assets/sorting_hat_button.png)
 
 4. Play with your sorting hat. Are all 10 questions important to create the sorting hat? If you were to remove some questions to improve user experience, which questions would you remove and justify your answer.
 
