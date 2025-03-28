@@ -103,22 +103,7 @@ void checkButtons() {
     bool buttonPressed = false;
 
     while (!buttonPressed) {  // Keep displaying the question until a button is pressed
-        if (digitalRead(BUTTON_A) == LOW) {
-            responses[questionIndex] = 1;
-            buttonPressed = true;
-        }
-        if (digitalRead(BUTTON_B) == LOW) {
-            responses[questionIndex] = 2;
-            buttonPressed = true;
-        }
-        if (digitalRead(BUTTON_C) == LOW) {
-            responses[questionIndex] = 3;
-            buttonPressed = true;
-        }
-        if (digitalRead(BUTTON_D) == LOW) {
-            responses[questionIndex] = 4;
-            buttonPressed = true;
-        }
+        
         delay(50);  // Small delay to prevent button bouncing
     }
 
