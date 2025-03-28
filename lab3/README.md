@@ -4,6 +4,7 @@
 In this lab, you will build a magical sorting hat using an ESP32 and machine learning. The sorting hat will classify students into different houses based on their characteristics. 
 
 ## Learning Objectives
+- Get familiar with buttons
 - Develop skills in data collection and preprocessing
 - Implement a classification system using decision tree
 - Create an interactive and engaging user experience
