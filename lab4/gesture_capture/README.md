@@ -17,6 +17,7 @@ This directory contains tools for capturing accelerometer data from an ESP32 wit
    - GND → GND
    - SCL → GPIO22 (or your I2C clock pin)
    - SDA → GPIO21 (or your I2C data pin)
+
 **Note**: The PIN number may vary depending on your developmen board.
 
 ### Arduino Setup
