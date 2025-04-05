@@ -17,7 +17,7 @@ LoRa has many advantages:
  mode and can last up to 10 years on a single coin cell battery.  
    
  ● Longrange-LoRaWANgateways can transmit and receive signals over a distance
- of over 10 kilometers iI n rural areas and up to 3 kilometers in dense urban areas.
+ of over 10 kilometers in rural areas and up to 3 kilometers in dense urban areas.
    
  ● Deepindoor penetration- LoRaWAN networks can provide deep indoor coverage,
  and easily cover multi floor buildings.  
@@ -47,7 +47,7 @@ LoRa has many advantages:
  ● 1 breadboard  
  ● Jumperwires and solid wires
 
- ## "Hellow world" communication between 2 LoRa Transceivers  
+ ## "Hello world" communication between 2 LoRa Transceivers  
 
  1) First, we need to connect pin headers and an antenna to each RFM95 LoRa board (pin
  ‘ANA’). The antenna can just be an open jumper wire (one side to ‘ANA’, another side not
@@ -65,7 +65,7 @@ LoRa has many advantages:
 
  ![Image of LoRa Library Arduino](assets/LoRaLibrary.svg)  
 
-  4) Onone ESP32-LoRa that you have just prepared, upload ‘lora_helloworld_talker.ino’, which
+  4) On one ESP32-LoRa that you have just prepared, upload ‘lora_helloworld_talker.ino’, which
  will send out a message ‘hello’ every second. Make sure that you go to the line
  ``` LoRa.setSyncWord(0xF3); ```
  And change the sync word to your unique one. LoRa listens to all the messages within the
@@ -101,5 +101,5 @@ LoRa has many advantages:
 
  ![Image of Serial Plotter of PPG](assets/PlotterPPG.svg)  
    
-     Please take a screenshot or record a video for submission.
+Please take a screenshot or record a video for submission.
 
