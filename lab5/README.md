@@ -123,9 +123,9 @@ To find such information, click the tab on top right showing your subscription a
 ### 7. Cloud-Edge Offloading
 
 1. Complete the provided sketch template. Tune the confidence interval to control when ESP32 should consult to the cloud for gesture inference.
-2. Take a picture your serieal monitor for cases when ESP32 performs inference locally, and when ESP32 consults cloud for inference.
+2. Take a picture your serial monitor for cases when ESP32 performs inference locally, and when ESP32 consults cloud for inference.
 
 ## Deliverables
 
 1. GitHub link to your project
-2. 
+2. Pictures of serial monitor
