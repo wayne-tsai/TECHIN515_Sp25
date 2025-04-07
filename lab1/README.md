@@ -93,8 +93,7 @@ LoRa has many advantages:
  An example code from Techin 514 to read PPG using ESP 32 is attached. Please modify the
  LoRa talker and listener code so that the talker can send PPG readings to the listener.
 
- You may
- also want to adjust the time delay in the talker code to make it more ‘realtime’.  
+ You may also want to adjust the time delay in the talker code to make it more ‘realtime’.  
 
  Please modify the listener code so that you can visualize the PPG readings on the listener port
  using the serial plotter.
