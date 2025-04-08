@@ -60,6 +60,8 @@ LoRa has many advantages:
 
  ![Image of LoRa Wiring Diagram](assets/LoRaWiring.svg)
 
+ [You may need this pinout (found in the images for the Amazon listing) for the ESP32](https://www.amazon.com/dp/B0CNYK7WT2)
+
  3) Install a LoRa library in your Arduino IDE. Please notice that there are many LoRa libraries,
  make sure you install the exact one with name ‘LoRa’.
 
