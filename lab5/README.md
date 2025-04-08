@@ -34,14 +34,6 @@ By completing this lab, students will:
     └── some_class/                  # Some other gesture samples
 ```
 
-
-```
-wand-app/
-├── wand_model.h5
-├── app.py
-├── requirements.txt
-```
-
 ## Hardware Requirements
 
 - Your magic wand from Lab 4
