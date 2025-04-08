@@ -158,6 +158,10 @@ To find such information, click the tab on top right showing your subscription a
 1. Complete the provided sketch template. Tune the confidence interval to control when ESP32 should consult to the cloud for gesture inference.
 2. Take a picture your serial monitor for cases when ESP32 performs inference locally, and when ESP32 consults cloud for inference.
 
+### 8. Clean Up Resources
+
+1. If you have completed this lab, and do not need the resources any more, you can go to resource groups from portal menu and delete resource group. This operation may take a few minutes to complete. Clean up resources will help to manage your bills incurred when using cloud services.
+
 ## Deliverables
 
 1. GitHub link to your project
