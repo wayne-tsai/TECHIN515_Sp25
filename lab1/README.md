@@ -88,8 +88,7 @@ LoRa has many advantages:
    Now with the current structure, we could connect a PPG sensor to the sender ESP 32 as what
  we did in Techin 514, and make it a LoRa sender sending PPG signal.
 
-  Then we can receive that
- signal using the LoRa receiver.
+  Then we can receive that signal using the LoRa receiver.
  An example code from Techin 514 to read PPG using ESP 32 is attached. Please modify the
  LoRa talker and listener code so that the talker can send PPG readings to the listener.
 
