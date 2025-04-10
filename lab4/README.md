@@ -163,6 +163,7 @@ Prediction: [gesture_name] (confidence_percentage%)
 2. Use appropriate enclosure for your wand. 
 
 ## Deliverables
+
 1. Code and Documentation:
    - All Arduino sketches with comments
    - Python scripts for data collection
@@ -178,13 +179,16 @@ Prediction: [gesture_name] (confidence_percentage%)
    - Demo video link
    - Challenges faced and solutions
 
-3. Demo Video (2-3 minutes):
+3. Demo Video (less than 3 minutes):
    - Show hardware setup
    - Demonstrate data collection
    - Show real-time gesture recognition
    - Include performance metrics
 
 4. Enclosure and Battery are due on **May 20th, 2025**.
+   - Components including board, MCU, IMU sensor, and wiring should be fully enclosed.
+   - Use mounting holes to stablize the board within your wand.
+   - Use reasonable enclosure based on your background in TECHIN511. For example, a box or staff is considered and **inappropriate  enclosure** for the wand.
   
 ## Troubleshooting
 
