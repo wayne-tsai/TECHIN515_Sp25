@@ -23,6 +23,18 @@ In this lab, you will build a magical sorting hat using an ESP32 and machine lea
   - EloquentTinyML
   - Adafruit SSD1306
 
+## Project Structure
+```
+.
+├── src/                    # Source code directory for laptop
+│   └── sorting_hat_laptop.py    # Python script for training the model
+    ├── requirements.txt        # Python dependencies
+├── sorting_hat_ESP32/
+    └── sorting_hat_esp_button.ino    # ESP32 Arduino sketch
+├── assets/                 # Assets directory
+│   └── sorting_hat_button.png    # Wiring diagram
+└── README.md              # Lab manual
+```
 
 ## Tasks
 1. Create your dataset to train the sorting hat.
