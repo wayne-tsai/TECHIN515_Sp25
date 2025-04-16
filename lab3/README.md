@@ -36,6 +36,28 @@ In this lab, you will build a magical sorting hat using an ESP32 and machine lea
 └── README.md              # Lab manual
 ```
 
+## Dataset Structure
+The dataset is stored in a CSV file named `Sorting_Dataset.csv` with the following structure: (Note: Revise the file name accordingly for your setup)
+
+| Question 1 | Question 2 | Question 3 | ... | House |
+|------------|------------|------------|-----|-------|
+| 1          | 3          | 2          | ... | Gryffindor |
+| 2          | 1          | 4          | ... | Slytherin |
+| 3          | 2          | 1          | ... | Hufflepuff |
+| 4          | 4          | 3          | ... | Ravenclaw |
+
+
+### Features
+- Each question column contains integer values (1-4) representing the user's response
+- The `House` column contains the target variable (Gryffindor, Slytherin, Hufflepuff, or Ravenclaw)
+- Each row represents one student's complete set of responses
+
+### Data Collection Guidelines
+- Collect at least 30 entries (5 responses from 6 different students)
+- Ensure **balanced representation** across all houses
+- Each response should be a number between 1 and 4
+- Label each complete set of responses with the appropriate house
+
 ## Tasks
 1. Create your dataset to train the sorting hat.
    - Create at least five responses to all questions and label them.
@@ -50,7 +72,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-1. Use `src/sorting_hat_laptop.py` to train your decision tree and convert it to C++ for ESP32. To run the Python script, you may wan
+1. Use `src/sorting_hat_laptop.py` to train your decision tree and convert it to C++ for ESP32. Depending on your dataset size, you can tune the tree depth to prevent overfitting.
 2. Wire your ESP32 with buttons and OLED display. An example is shown in the figure below. Update the sketch `sorting_hat_esp_button.ino` accordingly, depending on how you wire the sorting hat. Complete the `checkButtons()` logic. The starter code includes a function stub for checking button presses and recording responses. Your task is to implement the following:
    - Wait for **exactly one** of the 4 buttons to be pressed  
    - Store the response as an integer (1–4) in the `responses[]` array  
@@ -69,11 +91,17 @@ Hint: Use the INPUT_PULLUP mode and look for LOW when pressed.
 
 ![Example of a sorting hat created using ESP32](assets/sorting_hat_button.png)
 
-4. Play with your sorting hat. Are all 10 questions important to create the sorting hat? If you were to remove some questions to improve user experience, which questions would you remove and justify your answer.
+### Discussion
+
+- Play with your sorting hat. Are all 10 questions important to create the sorting hat? If you were to remove some questions to improve user experience, which questions would you remove and justify your answer.
+- If you were to improve the sorting hat, what technical improvements would you make? Consider:
+  - How could you improve the model's accuracy or efficiency?
+  - What additional sensors or hardware could enhance the user experience?
+
 
 ## Deliverables
 
 Submit a GitHub link containing:
 1. Video of your working sorting hat prototype
-2. Source code with comments
+2. Source code with comments and dataset
 3. Brief documentation of your implementation and answers to questions in lab manual
