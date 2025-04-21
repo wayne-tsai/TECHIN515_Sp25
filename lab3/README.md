@@ -95,9 +95,9 @@ pip install -r requirements.txt
 
 1. Use `src/sorting_hat_laptop.py` to train your decision tree and convert it to C++ for ESP32. Depending on your dataset size, you can tune the tree depth to prevent overfitting.
 2. Wire your ESP32 with buttons and OLED display. An example is shown in the figure below. Update the sketch `sorting_hat_esp_button.ino` accordingly, depending on how you wire the sorting hat. Complete the `checkButtons()` logic. The starter code includes a function stub for checking button presses and recording responses. Your task is to implement the following:
-   - Wait for **exactly one** of the 4 buttons to be pressed  
-   - Store the response as an integer (1–4) in the `responses[]` array  
-   - Debounce the input using a small delay  
+   - Wait for **exactly one** of the 4 buttons to be pressed
+   - Store the response as an integer (1–4) in the `responses[]` array
+   - Debounce the input
    - Call the `nextQuestion()` function once an answer is recorded
 
 The pseudocode is as follows:
