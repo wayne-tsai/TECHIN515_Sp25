@@ -126,6 +126,7 @@ Connect the MPU6050 to your ESP32:
 ## Data Format
 
 The gesture data is stored in CSV format with four columns:
+
 - Timestamp
 - x: X-axis acceleration (m/s²)
 - y: Y-axis acceleration (m/s²)

@@ -77,6 +77,7 @@ Options:
 ## Data Format
 
 The CSV files contain four columns:
+
 - Timestamp
 - x: X-axis acceleration (in m/s²)
 - y: Y-axis acceleration (in m/s²)
