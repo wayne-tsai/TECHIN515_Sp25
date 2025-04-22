@@ -103,10 +103,10 @@ Connect the MPU6050 to your ESP32:
    │   ├── O         # All gesture data labeled with O
    │   ├── V         # All gesture data labeled with V
    ```
-6. Design your own gestures for the following three spells:
-   1. **Fire Bolt**: Deal 1HP from your opponent, consuming 1MP
-   2. **Reflect Shield**: Reflect Fire Bold from your opponent with doubled damage and consume 2MP
-   3. **Healing Spell**: Heal yourself with 1HP, consuming 2MP
+6. Collect gesture data for the following three spells:
+   1. **Fire Bolt**<--->Gesture "Z": Deal 1HP from your opponent, consuming 1MP
+   2. **Reflect Shield**<--->Gesture "O": Reflect Fire Bold from your opponent with doubled damage and consume 2MP
+   3. **Healing Spell**<--->Gesture "$\land$": Heal yourself with 1HP, consuming 2MP
 
 <p float="left">
   <img src="assets/Bolt.png" width="32%" />
