@@ -105,10 +105,15 @@ The dataset is stored in a CSV file with the following structure: (Note: Revise 
 
    ```cpp
    // Pseudocode:
-   if (digitalRead(BUTTON_A) == LOW) {
-      // Record response as 1
-      // Move to next question
+   if (buttonStates[i] == LOW) { // If the button is pressed (LOW because of INPUT_PULLUP)
+      // Save the user's answer
+                    
+      // Note that a button was pressed
    }
+
+   if (buttonPressed) { // If any button was pressed (and debounced), move to next question
+        
+    }
    ```
 
    Hint: Look for LOW when the button is pressed.
