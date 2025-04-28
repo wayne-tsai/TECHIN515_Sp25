@@ -94,7 +94,8 @@ The dataset is stored in a CSV file with the following structure: (Note: Revise 
    ```
 
 3. Use `src/sorting_hat_laptop.py` to train your decision tree and convert it to C++ for ESP32. Depending on your dataset size, you can tune the tree depth to prevent overfitting.
-4. Wire your ESP32 with buttons and OLED display. An example is shown in the figure below. Update the sketch `sorting_hat_esp_button.ino` accordingly, depending on how you wire the sorting hat. Complete the `checkButtons()` logic. The starter code includes a function stub for checking button presses and recording responses. Your task is to implement the following:
+4. Wire your ESP32 with buttons and OLED display. An example is shown in the figure below. Update the sketch `sorting_hat_esp_button_x_width.ino` accordingly, depending on how you wire the sorting hat and which OLED display you use. If your OLED display is 128x64, choose `x=64`. If your OLED display is 128x32, choose `x=32`.
+5. Complete the `checkButtons()` logic. The starter code includes a function stub for checking button presses and recording responses. Your task is to implement the following:
    - Wait for **exactly one** of the 4 buttons to be pressed
    - Store the response as an integer (1–4) in the `responses[]` array
    - Debounce the input
