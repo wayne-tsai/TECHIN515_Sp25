@@ -116,8 +116,7 @@ The dataset is stored in a CSV file with the following structure: (Note: Revise 
     }
    ```
 
-   Hints: 
-
+   Hints:
    - Look for LOW when the button is pressed.
    - Change PIN numbers based on your wiring and board being used.
 
@@ -129,6 +128,7 @@ The dataset is stored in a CSV file with the following structure: (Note: Revise 
 - If you were to improve the sorting hat, what technical improvements would you make? Consider:
   - How could you improve the model's accuracy or efficiency?
   - What additional sensors or hardware could enhance the user experience?
+  - Is decision tree remain suitable for your choice of new sensors? If yes, carefully justify your answer. If not, what ML model would you use and explain why.
 
 
 ## Deliverables
