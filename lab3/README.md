@@ -116,7 +116,10 @@ The dataset is stored in a CSV file with the following structure: (Note: Revise 
     }
    ```
 
-   Hint: Look for LOW when the button is pressed.
+   Hints: 
+
+   - Look for LOW when the button is pressed.
+   - Change PIN numbers based on your wiring and board being used.
 
 ![Example of a sorting hat created using ESP32](assets/sorting_hat_button.png)
 
