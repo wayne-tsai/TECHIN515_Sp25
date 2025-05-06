@@ -125,10 +125,24 @@ The dataset is stored in a CSV file with the following structure: (Note: Revise 
 ### Discussion
 
 - Play with your sorting hat. Are all 10 questions important to create the sorting hat? If you were to remove some questions to improve user experience, which questions would you remove and justify your answer.
-- If you were to improve the sorting hat, what technical improvements would you make? Consider:
+
+> Answer: I believe not all 10 questions may be equally important for accurately sorting users into houses. So some questions might be redundant. For example, questions that are similar in intent (like "What do you value?" and "How do friends describe you?") may provide overlapping information. Also, questions with less variation in responses (like "Preferred pet?") might not contribute much to distinguishing between houses. To improve user experience, I would consider removing: Question 7: Preferred pet? — This is more about personal taste and less about core values or traits that define house placement. Question 10: Dream career? — Career aspirations can be influenced by many external factors and may not directly reflect the qualities associated with each house.
+
   - How could you improve the model's accuracy or efficiency?
+
+      1. Collect more data: More responses from a diverse group would help the model generalize better. 
+      2. Feature selection: Analyze which questions (features) are most important using feature importance from the decision tree, and remove less useful ones. 
+      3. Hyperparameter tuning: Experiment with tree depth, splitting criteria, or even try ensemble methods like Random Forests (if supported on the hardware). 
+      4. Cross-validation: Use cross-validation to better estimate model performance and avoid overfitting
+
   - What additional sensors or hardware could enhance the user experience?
+
+      - Microphone: Allow users to answer questions via voice, making the experience more magical and interactive.
+      - Speaker/Buzzer: Provide audio feedback or play house theme music upon sorting.
+      - RGB LEDs: Visually indicate the house with colored lights.
+
   - Does decision tree remain suitable for your choice of new sensors? If yes, carefully justify your answer. If not, what ML model would you use and explain why.
+  > Answer: If using simple, categorical data (like button presses or touch input), decision trees remain suitable because they handle categorical features well and are easy to interpret and deploy on microcontrollers.
 
 
 ## Deliverables
